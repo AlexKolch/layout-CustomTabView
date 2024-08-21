@@ -11,6 +11,11 @@
 		FCBA80272C7607EE0082BF2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA80262C7607EE0082BF2C /* ContentView.swift */; };
 		FCBA80292C7607F00082BF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBA80282C7607F00082BF2C /* Assets.xcassets */; };
 		FCBA802C2C7607F00082BF2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBA802B2C7607F00082BF2C /* Preview Assets.xcassets */; };
+		FCBA80332C7608E00082BF2C /* ContentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA80322C7608E00082BF2C /* ContentVM.swift */; };
+		FCBA803B2C7612E20082BF2C /* Matemasie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCBA803A2C7612E20082BF2C /* Matemasie-Regular.ttf */; };
+		FCBA803E2C7616180082BF2C /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA803D2C7616180082BF2C /* FontModifier.swift */; };
+		FCBA80402C7616A80082BF2C /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA803F2C7616A80082BF2C /* FontManager.swift */; };
+		FCBA80432C761FB70082BF2C /* View + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA80422C761FB70082BF2C /* View + Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		FCBA80262C7607EE0082BF2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCBA80282C7607F00082BF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCBA802B2C7607F00082BF2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCBA80322C7608E00082BF2C /* ContentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVM.swift; sourceTree = "<group>"; };
+		FCBA803A2C7612E20082BF2C /* Matemasie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Matemasie-Regular.ttf"; sourceTree = "<group>"; };
+		FCBA803D2C7616180082BF2C /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
+		FCBA803F2C7616A80082BF2C /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		FCBA80422C761FB70082BF2C /* View + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,9 @@
 			children = (
 				FCBA80242C7607EE0082BF2C /* layout_1SwiftUIApp.swift */,
 				FCBA80262C7607EE0082BF2C /* ContentView.swift */,
+				FCBA80322C7608E00082BF2C /* ContentVM.swift */,
+				FCBA80412C761F990082BF2C /* Ext */,
+				FCBA80342C760D420082BF2C /* Resources */,
 				FCBA80282C7607F00082BF2C /* Assets.xcassets */,
 				FCBA802A2C7607F00082BF2C /* Preview Content */,
 			);
@@ -65,6 +78,32 @@
 				FCBA802B2C7607F00082BF2C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCBA80342C760D420082BF2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCBA803C2C7615EA0082BF2C /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCBA803C2C7615EA0082BF2C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FCBA803A2C7612E20082BF2C /* Matemasie-Regular.ttf */,
+				FCBA803D2C7616180082BF2C /* FontModifier.swift */,
+				FCBA803F2C7616A80082BF2C /* FontManager.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		FCBA80412C761F990082BF2C /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				FCBA80422C761FB70082BF2C /* View + Ext.swift */,
+			);
+			path = Ext;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBA803B2C7612E20082BF2C /* Matemasie-Regular.ttf in Resources */,
 				FCBA802C2C7607F00082BF2C /* Preview Assets.xcassets in Resources */,
 				FCBA80292C7607F00082BF2C /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBA80402C7616A80082BF2C /* FontManager.swift in Sources */,
+				FCBA80332C7608E00082BF2C /* ContentVM.swift in Sources */,
 				FCBA80272C7607EE0082BF2C /* ContentView.swift in Sources */,
 				FCBA80252C7607EE0082BF2C /* layout_1SwiftUIApp.swift in Sources */,
+				FCBA80432C761FB70082BF2C /* View + Ext.swift in Sources */,
+				FCBA803E2C7616180082BF2C /* FontModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +319,7 @@
 				DEVELOPMENT_TEAM = 527U829H6E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "layout-1SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +349,7 @@
 				DEVELOPMENT_TEAM = 527U829H6E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "layout-1SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
