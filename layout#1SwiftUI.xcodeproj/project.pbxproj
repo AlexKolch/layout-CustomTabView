@@ -16,6 +16,10 @@
 		FCBA803E2C7616180082BF2C /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA803D2C7616180082BF2C /* FontModifier.swift */; };
 		FCBA80402C7616A80082BF2C /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA803F2C7616A80082BF2C /* FontManager.swift */; };
 		FCBA80432C761FB70082BF2C /* View + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA80422C761FB70082BF2C /* View + Ext.swift */; };
+		FCBA80472C7623570082BF2C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA80462C7623570082BF2C /* MainView.swift */; };
+		FCBA80492C7623660082BF2C /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA80482C7623660082BF2C /* MainVM.swift */; };
+		FCBA804B2C7623700082BF2C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA804A2C7623700082BF2C /* MainModel.swift */; };
+		FCBA804D2C7624950082BF2C /* ContentPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA804C2C7624950082BF2C /* ContentPageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		FCBA803D2C7616180082BF2C /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
 		FCBA803F2C7616A80082BF2C /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		FCBA80422C761FB70082BF2C /* View + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Ext.swift"; sourceTree = "<group>"; };
+		FCBA80462C7623570082BF2C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FCBA80482C7623660082BF2C /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		FCBA804A2C7623700082BF2C /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		FCBA804C2C7624950082BF2C /* ContentPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				FCBA80242C7607EE0082BF2C /* layout_1SwiftUIApp.swift */,
-				FCBA80262C7607EE0082BF2C /* ContentView.swift */,
-				FCBA80322C7608E00082BF2C /* ContentVM.swift */,
+				FCBA80442C7623300082BF2C /* Tab */,
+				FCBA80452C76233D0082BF2C /* MainScreen */,
 				FCBA80412C761F990082BF2C /* Ext */,
 				FCBA80342C760D420082BF2C /* Resources */,
 				FCBA80282C7607F00082BF2C /* Assets.xcassets */,
@@ -104,6 +112,26 @@
 				FCBA80422C761FB70082BF2C /* View + Ext.swift */,
 			);
 			path = Ext;
+			sourceTree = "<group>";
+		};
+		FCBA80442C7623300082BF2C /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				FCBA804C2C7624950082BF2C /* ContentPageModel.swift */,
+				FCBA80322C7608E00082BF2C /* ContentVM.swift */,
+				FCBA80262C7607EE0082BF2C /* ContentView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		FCBA80452C76233D0082BF2C /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FCBA804A2C7623700082BF2C /* MainModel.swift */,
+				FCBA80482C7623660082BF2C /* MainVM.swift */,
+				FCBA80462C7623570082BF2C /* MainView.swift */,
+			);
+			path = MainScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,11 +206,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCBA80402C7616A80082BF2C /* FontManager.swift in Sources */,
+				FCBA80472C7623570082BF2C /* MainView.swift in Sources */,
 				FCBA80332C7608E00082BF2C /* ContentVM.swift in Sources */,
 				FCBA80272C7607EE0082BF2C /* ContentView.swift in Sources */,
 				FCBA80252C7607EE0082BF2C /* layout_1SwiftUIApp.swift in Sources */,
+				FCBA804B2C7623700082BF2C /* MainModel.swift in Sources */,
 				FCBA80432C761FB70082BF2C /* View + Ext.swift in Sources */,
 				FCBA803E2C7616180082BF2C /* FontModifier.swift in Sources */,
+				FCBA804D2C7624950082BF2C /* ContentPageModel.swift in Sources */,
+				FCBA80492C7623660082BF2C /* MainVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
