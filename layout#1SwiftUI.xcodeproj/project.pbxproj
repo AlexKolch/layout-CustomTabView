@@ -18,7 +18,7 @@
 		FCBA80432C761FB70082BF2C /* View + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA80422C761FB70082BF2C /* View + Ext.swift */; };
 		FCBA80472C7623570082BF2C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA80462C7623570082BF2C /* MainView.swift */; };
 		FCBA80492C7623660082BF2C /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA80482C7623660082BF2C /* MainVM.swift */; };
-		FCBA804B2C7623700082BF2C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA804A2C7623700082BF2C /* MainModel.swift */; };
+		FCBA804B2C7623700082BF2C /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA804A2C7623700082BF2C /* MainItem.swift */; };
 		FCBA804D2C7624950082BF2C /* ContentPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA804C2C7624950082BF2C /* ContentPageModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +35,7 @@
 		FCBA80422C761FB70082BF2C /* View + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Ext.swift"; sourceTree = "<group>"; };
 		FCBA80462C7623570082BF2C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FCBA80482C7623660082BF2C /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
-		FCBA804A2C7623700082BF2C /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		FCBA804A2C7623700082BF2C /* MainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
 		FCBA804C2C7624950082BF2C /* ContentPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,7 +127,7 @@
 		FCBA80452C76233D0082BF2C /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
-				FCBA804A2C7623700082BF2C /* MainModel.swift */,
+				FCBA804A2C7623700082BF2C /* MainItem.swift */,
 				FCBA80482C7623660082BF2C /* MainVM.swift */,
 				FCBA80462C7623570082BF2C /* MainView.swift */,
 			);
@@ -210,7 +210,7 @@
 				FCBA80332C7608E00082BF2C /* ContentVM.swift in Sources */,
 				FCBA80272C7607EE0082BF2C /* ContentView.swift in Sources */,
 				FCBA80252C7607EE0082BF2C /* layout_1SwiftUIApp.swift in Sources */,
-				FCBA804B2C7623700082BF2C /* MainModel.swift in Sources */,
+				FCBA804B2C7623700082BF2C /* MainItem.swift in Sources */,
 				FCBA80432C761FB70082BF2C /* View + Ext.swift in Sources */,
 				FCBA803E2C7616180082BF2C /* FontModifier.swift in Sources */,
 				FCBA804D2C7624950082BF2C /* ContentPageModel.swift in Sources */,

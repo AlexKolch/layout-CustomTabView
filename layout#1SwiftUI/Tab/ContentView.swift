@@ -10,6 +10,10 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var vm = ContentVM()
     
+    init() {
+        UITabBar.appearance().isHidden = true
+    }
+    
     var body: some View {
         ZStack(alignment: .bottom) {
             HStack() {
@@ -29,7 +33,7 @@ struct ContentView: View {
             
             TabView(selection: $vm.selectedView,
                     content:  {
-                MainView().customFont().tag("plus")
+                MainView().tag("plus")
                 Text("View 2").tag("filter")
                 Text("View 3").tag("gear")
             })
@@ -56,7 +60,7 @@ struct CustonTabView: View {
                     Image(page.image).resizable().frame(width: 19, height: 19)
                     Text(page.title).foregroundStyle(.black)
                 } else {
-                    Image(page.image).resizable().frame(width: 19, height: 19)
+                    Image(page.image).resizable().frame(width: 19, height: 19).opacity(0.5)
                 }
             }
             .padding(.vertical, 10)
